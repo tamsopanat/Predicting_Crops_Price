@@ -2,13 +2,11 @@ from flask import Flask, request,render_template
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
-from datetime import date
 from sklearn.linear_model import LinearRegression
+from datetime import date
 from keras.models import Sequential
 from keras.callbacks import EarlyStopping
-from keras.layers import Dense
-from keras.layers import LSTM
-from sklearn.preprocessing import MinMaxScaler
+from keras.layers import Dense, LSTM
 
 current_year = date.today().year
 next_year = current_year + 1
