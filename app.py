@@ -9,7 +9,6 @@ from keras.callbacks import EarlyStopping
 from keras.layers import Dense
 from keras.layers import LSTM
 from sklearn.preprocessing import MinMaxScaler
-import tensorflow as tf
 
 current_year = date.today().year
 next_year = current_year + 1
